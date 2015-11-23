@@ -7,6 +7,6 @@
 <title>User Report</title>
 </head>
 <body>
-
+<h1>User Info goes here</h1>
 </body>
 </html>
