@@ -3,8 +3,12 @@
 <%
 String firstNameInJSP = request.getParameter("firstname");
 String lastNameInJSP = request.getParameter("lastname");
-String emailInJSP = request.getParameter("email");
-String passwordInJSP = request.getParameter("password");
+String address1InJSP = request.getParameter("address1");
+String address2InJSP = request.getParameter("address2");
+String cityInJSP = request.getParameter("city");
+String stateInJSP = request.getParameter("state");
+String zipInJSP = request.getParameter("zip");
+String countryInJSP = request.getParameter("country");
 
 %>
 
@@ -21,8 +25,12 @@ String passwordInJSP = request.getParameter("password");
 	<h3>We have received the following information: </h3>
 	<h3>First Name : <%=firstNameInJSP%></h3>
 	<h3>Last Name : <%=lastNameInJSP%></h3>
-	<h3>eMail Address : <%=emailInJSP%></h3>
-	<h3>Password : <%=passwordInJSP%></h3>
-	<p>Please <a href="login.jsp">click here</a> to go to the Login page. </p>	
+	<h3>Address 1 : <%=address1InJSP%></h3>
+	<h3>Address 2 : <%=address2InJSP%></h3>
+	<h3>City : <%=cityInJSP%></h3>
+	<h3>State : <%=stateInJSP%></h3>
+	<h3>Zip : <%=zipInJSP%></h3>
+	<h3>Country : <%=countryInJSP%></h3>
+		
 </body>
 </html>

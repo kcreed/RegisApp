@@ -5,10 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="sportingIT.css">
-<title>SportingIT Registration</title>
+<title>Registration</title>
 </head>
 <body>
-	<h1>SportingIT Registration</h1>
+	<h1>Registration</h1>
 	<form name="registrationForm" method="post" action="registrationConfirm.jsp">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
@@ -32,21 +32,54 @@
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td>eMail Address:</td>
-				<td><input type="text" name="email"></td>
+				<td>Address 1:</td>
+				<td><input type="text" name="address1"></td>
 			</tr>
 			<tr>
 				<td>&nbsp;</td>
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td>Password:</td>
-				<td><input type="password" name="password"></td>
+				<td>Address 2:</td>
+				<td><input type="text" name="address2"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>			
+			<tr>
+				<td>City:</td>
+				<td><input type="text" name="city"></td>
 			</tr>
 			<tr>
 				<td>&nbsp;</td>
 				<td>&nbsp;</td>
 			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input type="text" name="state"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Zip:</td>
+				<td><input type="text" name="zip"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td><input type="text" name="country"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			
 			<tr>
 				<td></td>
 				<td><input type="submit" value="Submit"><td>
