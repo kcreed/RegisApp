@@ -21,7 +21,7 @@ String countryInJSP = request.getParameter("country");
 </head>
 <body>
 	<h1>Registration Confirmation</h1>
-	<h2>Thank you for registering with SportingIT <%=firstNameInJSP%>!</h2>
+	<h2>Thank you for registering <%=firstNameInJSP%>!</h2>
 	<h3>We have received the following information: </h3>
 	<h3>First Name : <%=firstNameInJSP%></h3>
 	<h3>Last Name : <%=lastNameInJSP%></h3>
